@@ -34,10 +34,9 @@ nock(line).get(`/group/${groupId}/members/ids?start=token3`).reply(200, {
 nock(line).post(`/group/${groupId}/leave`).reply(200, {});
 
 const bot = linebot({
-  channelId: 1556385294,
-  channelSecret: '1aeda682a0dc4df5bdd6ed3b9aaa0c7a',
-  channelAccessToken: 'r4xJ5eqfaef5gF61gi8CEDZgIm8B3vMLz8A+g9GSL/OsfYgNSAwhaZlBjnOWSnxH496MnFrQmKHIYl72kxMBNYxh7G6ZNi+6DW9vKSAo5TvycmNeN+zXlskHRz35nuFHj6VENiq5VO0/KCBCtvht5wdB04t89/1O/w1cDnyilFU=
-'
+  channelId: 1234567890,
+  channelSecret: 'secret',
+  channelAccessToken: 'token'
 });
 
 describe('Group', function() {
