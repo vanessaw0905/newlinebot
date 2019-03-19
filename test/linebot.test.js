@@ -7,9 +7,10 @@ const nock = require('nock');
 const line = 'https://api.line.me/v2/bot';
 
 const bot = linebot({
-  channelId: 1234567890,
-  channelSecret: 'secret',
-  channelAccessToken: 'token'
+  channelId: 1556385294,
+  channelSecret: '1aeda682a0dc4df5bdd6ed3b9aaa0c7a',
+  channelAccessToken: 'r4xJ5eqfaef5gF61gi8CEDZgIm8B3vMLz8A+g9GSL/OsfYgNSAwhaZlBjnOWSnxH496MnFrQmKHIYl72kxMBNYxh7G6ZNi+6DW9vKSAo5TvycmNeN+zXlskHRz35nuFHj6VENiq5VO0/KCBCtvht5wdB04t89/1O/w1cDnyilFU=
+'
 });
 
 const req = {};
@@ -25,7 +26,7 @@ req.body = {
     timestamp: 1462629479859,
     source: {
       type: 'user',
-      userId: 'U206d25c2ea6bd87c17655609a1c37cb8'
+      userId: 'Ud561c38ed3e241991983b1df14fc3ea3'
     },
     message: {
       id: '325708',
